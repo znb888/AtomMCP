@@ -1,0 +1,22 @@
+# requirements.txt for QuantumSim project
+# Generated from the existing 'qutip-env' conda environment for maximum reproducibility.
+
+# Core library for quantum dynamics simulation
+qutip==5.2.1
+
+# Fundamental library for numerical computing
+numpy==2.3.2
+
+# Library for scientific and technical computing
+scipy==1.16.1
+
+# Primary library for creating visualizations
+matplotlib==3.10.5
+
+# MCP framework for building AI tools
+mcp==0.4.1
+
+# --- Development and Pre-commit Hooks ---
+pre-commit==4.3.0
+nbstripout==0.8.1
+pytest==8.4.2

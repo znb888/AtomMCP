@@ -1,0 +1,13 @@
+# 将所有文件默认视为文本文件，让 Git 自动处理换行符
+* text=auto
+
+# 针对明确的文本文件类型，强制在提交时转换为 LF
+# 这可以确保仓库中的版本始终是 LF，是跨平台协作的最佳实践
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+*.zpln filter=nbstripout
+*.ipynb diff=ipynb
