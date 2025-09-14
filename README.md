@@ -108,3 +108,7 @@ plt.show()
 - `numpy` & `scipy`: 用于数值计算。
 - `matplotlib`: 用于数据可视化。
 - `tqdm`: 用于在参数扫描中显示进度条。
+
+## License
+
+This project is licensed under the MIT No Commercial (MIT-NC) License. See the [LICENSE](LICENSE) file for details.
